@@ -1,53 +1,70 @@
-this link is working if the other one fails:  https://hngmovie-app.vercel.app/
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-1. Install Node.js and npm:
+In the project directory, you can run:
 
-React requires Node.js and npm (Node Package Manager) to be installed on your computer.
-Download and install Node.js from the official website: https://nodejs.org/
-Verify the installation by opening a terminal or command prompt and running the following commands:
-Copy code
-node -v
-npm -v
-2. Create a React App:
+### `npm start`
 
-You can create a new React application using a tool called create-react-app. Open your terminal or command prompt and run the following command to create a new React app:
-lua
-Copy code
-npx create-react-app my-react-app
-Replace my-react-app with the name of your app.
-3. Navigate to Your React App:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Use the cd command to navigate into your newly created React app's directory:
-bash
-Copy code
-cd my-react-app
-4. Start the Development Server:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Once you're inside your React app's directory, start the development server by running:
-sql
-Copy code
-npm start
-This command will start the development server and open your React app in a web browser. You can access it at http://localhost:3000.
-5. Edit Your React App:
+### `npm test`
 
-Your React app's source code is located in the src folder. You can use a code editor of your choice (e.g., Visual Studio Code, Sublime Text) to edit the source files.
-The main entry point for your app is src/App.js, where you can start building your React components.
-6. Learn React Basics:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-To start building React applications, you'll need to learn React's fundamentals, including components, props, state, and JSX. You can find many online tutorials and documentation resources to help you get started.
-7. Make Changes and Save:
+### `npm run build`
 
-As you make changes to your React app's source code, the development server will automatically reload the app in the browser, allowing you to see your changes in real-time.
-8. Stop the Development Server:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-When you're finished working on your React app, you can stop the development server by pressing Ctrl + C in the terminal or command prompt.
-9. Build for Production:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-When you're ready to deploy your React app, you can use the following command to create a production-ready build:
-arduino
-Copy code
-npm run build
-The build files will be generated in the build folder, which you can deploy to a web server.
-This guide should help you get started with React development locally. As you become more comfortable with React, you can explore more advanced topics and libraries to enhance your projects. React's official documentation (https://reactjs.org/docs/getting-started.html) is an excellent resource for learning more about React and its features.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
