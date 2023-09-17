@@ -126,7 +126,7 @@ function MovieList({searchResults}) {
       setIsLoading(false);
     } else {
     axios
-      .get(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`)
+      .get(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&language=en-US&page=1`)
       .then((response) => {
         setMovies(response.data.results.slice(0, 10)); // Slice to get the first 10 movies
         setIsLoading(false);
