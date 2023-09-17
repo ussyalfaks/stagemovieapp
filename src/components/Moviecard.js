@@ -104,9 +104,7 @@ function MovieCard({ movie, searchResults }) {
         </div>
       </div>
       <div className="genres">
-               {movie.genres.map((genre) => (
-                    <span key={genre.id}>{genre.name}</span>
-                  ))}
+              <span>Action, Adventure, Horror</span>
         
         {/* {movie.genres.map((genre) => genre.name).join(', ')} */}
         {/* {movie.genres ? movie.genres.map((genre) => genre.name).join(', ') : ''} */}
